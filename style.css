@@ -11,7 +11,7 @@ html {
     font-size: 16px;
 }
 #card {
-    margin-top: 25vh;
+    margin-top: 5%;
     width: 600px;
     height: 450px;
     box-shadow: 12px 17px 13px -5px rgba(0,0,0,0.1);
@@ -99,4 +99,11 @@ button:hover {
     font-size: 0.9rem;
     opacity: 0.9;
     line-height: 1.4;
+}
+
+@media (max-width: 650px) {
+    #bottom-left-section, #bottom-right-section, #card {
+        width: 100%;
+        height: auto;
+    }
 }
